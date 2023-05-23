@@ -47,7 +47,7 @@ main {
 }
 
 .container-welcome {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Tahoma, sans-serif;
     padding:3.5em;
     height: 40%;
     width: 40%;
@@ -61,6 +61,28 @@ main {
 h1, h2, #search-song {
     display: flex;
     padding:10px;
+}
+
+#search-song{
+    width: 16em;
+    border-top:0;
+    border-right:0;
+    border-left: none;
+    outline: none;
+}
+
+.search-container {
+    gap: 0.3em;
+    display: flex;
+    color: #fff;
+}
+button {
+    width: 10em;
+    border-radius: 7px;
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.1em;
+    background-color: rgb(152, 152, 248);
 }
 
 footer {
