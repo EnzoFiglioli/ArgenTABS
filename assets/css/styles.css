@@ -170,3 +170,50 @@ label input {
     outline: none;
     border-color:#8585f7;
 }
+
+.btn-conect {
+    padding:0.5em;
+}
+/*-------------SOCIAL MEDIA FORM---------------------------*/
+.log-social-media {
+    display: flex;
+    gap:1em;
+}
+
+.btn-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    padding-right: 1em;
+    background-color: rgb(231, 52, 52);
+}
+
+.fa-google {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 2em;
+    border-right:1px solid rgb(230, 230, 230) ;
+    margin:0.412vw;
+    padding-right: 1em;
+}
+
+.btn-fb{
+    background-color: #5252e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1em;
+    width: 13em;
+}
+
+.fa-facebook {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 2em;
+    border-right:1px solid rgb(230, 230, 230) ;
+    margin:0.412vw;
+    padding-right: 1em;
+}
