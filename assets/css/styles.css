@@ -4,8 +4,11 @@
 }
 
 .bg-home {
+    z-index: -1000px;
+    bottom:3.9em;
+    position:absolute;
     width: 100%;
-    height: 100%;
+    height: 40%;
     background-color: #8585f7;
     clip-path:polygon(30% 10%,100% 100%,0% 100%,0 0);
 }
@@ -81,13 +84,14 @@ main {
 }
 
 .container-welcome {
+    z-index: 1;
     font-family:Tahoma, sans-serif;
     padding:3.5em;
     height: 40%;
     width: 40%;
     background-color: #fff;
-    box-shadow: 1px 1px 1px 0px gray;
-    border-radius: 6px;
+    box-shadow: 2px;
+    border-radius: 3em;
     margin:1em;
     display: inline-block;
 }
@@ -145,16 +149,19 @@ p {
 }
 
 .container-form {
+    border-radius: 3em;
+    box-shadow: 3px;
+    position: relative;
+    top:300;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
     z-index: 100;
     top:1em;
     background-color: #fff;
     height: 22em;
-    width: 40em;
+    width: 34em;
     padding-top: 5em;
     padding-bottom: 5em;
 }
