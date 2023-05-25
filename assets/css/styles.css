@@ -83,9 +83,16 @@ main {
     align-items: center;
 }
 
+.line {
+    background-color:black;
+    width:10em;
+    height: 3px;
+    float:right;
+}
+
 .container-welcome {
     z-index: 1;
-    font-family:Tahoma, sans-serif;
+    font-family:Haettenschweiler, sans-serif;
     padding:3.5em;
     height: 40%;
     width: 40%;
@@ -150,7 +157,7 @@ p {
 
 .container-form {
     border-radius: 3em;
-    box-shadow: 3px;
+    box-shadow: 0px 0.3px 0px 0px #5c5c5c44;
     position: relative;
     top:300;
     display: flex;
